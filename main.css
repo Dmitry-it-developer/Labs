@@ -1,5 +1,5 @@
 body{
-    background: url(background.jpeg);
+    background-image: url(background.jpeg);
     background-size: cover;
     background-position: center;
     /* background: linear-gradient(blueviolet, white); */
@@ -34,7 +34,6 @@ main {
     background: transparent;
     backdrop-filter: blur(25px);
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
-    margin: auto;
     width: 800px;
     height: 600px;
     border-radius: 30px;

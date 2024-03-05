@@ -1,0 +1,52 @@
+body{
+    background-image: url(/background.jpeg);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(blueviolet, white);
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.content{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    backdrop-filter: blur(25px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+    width: 800px;
+    height: 600px;
+    border-radius: 30px;
+}
+
+h1 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    font-size: 3em;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2em;
+ }
+a:hover{
+    text-decoration: underline;
+ }
