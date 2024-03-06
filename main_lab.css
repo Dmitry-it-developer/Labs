@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(rgb(142, 22, 255), rgb(137, 101, 255));
-    color:#fff
+    color:#fff;
+    height: 100%;
 }
 header {
     margin: 0;
@@ -11,9 +12,7 @@ footer{
     margin: 0;
     text-align: center;
     font-size: 25px;
-    min-height: 5vh;
 }
-
-main {
-    height: 95vh;
+main{
+    min-height: 100vh;
 }
